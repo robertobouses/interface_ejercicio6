@@ -33,7 +33,7 @@ func main() {
 	fmt.Println("holaaa")
 
 	disc1 := user.Disc{"Some Girls", "Rock", user.Artist{"ROLLING STONES", 1978}, 26, 3}
-	tape1 := user.Disc{"Help", "Rock", user.Artist{"THE BEATLES STONES", 1965}, 25, 5}
+	tape1 := user.Tape{"Help", "Rock", user.Artist{"THE BEATLES STONES", 1965}, 25, 5}
 
 	fmt.Println("----------data of discs and tapes:")
 	PrintingAllData(disc1)
